@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - A Pen by ECORESISTOR </title>
+  
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+          <title><h1>EcoResistor Shop</h1>
+  </title>
+  <style>
+    body {
+      container margin: 0px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 600vh;
+      margin: 00;
+      background-color:(#006400)
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    section {
+      max-width: 900px;
+      padding: 20px;
+      background-color: #f4f4f4;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    header {
+      text-align: center;
+      background-color: #006400;
+      padding: 10px;
+      box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    h2 {
+      color: #333;
+    }
+
+    p {
+      color: #333;
+    }
+
+    ul {
+      color: #333;
+    }
+
+    li {
+      color: #333;
+    }
+  </style>
+</head>
+
+<body>
+
+  <section>
+<div>
+    <header>
+      <h1>EcoResistor Shop</h1>
+      <p>Trafegar pela Inovação Sustentável</p>
+ 
+      </div>
+    </header>
+
+    <section>
+      <h2 style="color: #FFA500;">Destaque do Produto: EcoResistor para Eficiência de Combustível</h2>
+
+      </style>
+
+      <!DOCTYPE html>
+      <html lang="en">
+
+      <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fotos com Controle Ajustável</title>
+        <style>
+          #container {
+            position: relative;
+          }
+
+          #imagemContainer {
+            display: flex;
+            overflow: hidden;
+            width: 100%;
+          }
+
+          #imagemContainer img {
+            width: 100%;
+            display: none;
+          }
+
+          #imagemContainer img:first-child {
+            display: block;
+          }
+
+          #controleImagem {
+            width: 100%;
+            display: none;
+          }
+
+          #setas {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            right: 0;
+            display: flex;
+            justify-content: space-between;
+          }
+
+          .seta {
+            font-size: 24px;
+            cursor: pointer;
+          }
+        </style>
+      </head>
+
+      <body>
+
+        <div id="container">
+          <div id="setas">
+            <div class="seta" onclick="alterarImagem(-1)">&#9664;</div>
+            <div class="seta" onclick="alterarImagem(1)">&#9654;</div>
+          </div>
+
+          <div id="imagemContainer">
+            <img id="imagem1" src="https://i.postimg.cc/zB79HcWR/D-NQ-NP-831602-MLB44963606120-022021-O.webp" alt="D-NQ-NP-831602-MLB44963606120-022021-O" />
+            <img id="imagem2" src="https://i.postimg.cc/fygpBS8z/images-1.jpg" alt="images-1" />
+            <img id="imagem3" src="https://i.postimg.cc/cCJPRBMk/images-2.jpg" alt="images-2" />
+            <img id="imagem4" src="https://i.postimg.cc/8ky21xN2/images-3.jpg" alt="images-3" />
+          </div>
+        </div>
+
+        <input type="range" id="controleImagem" min="1" max="4" value="1" oninput="mostrarImagem()" style="width: 100%; display: none;">
+
+        <script>
+          function mostrarImagem() {
+            var valorControle = document.getElementById("controleImagem").value;
+            var imagens = document.getElementById("imagemContainer").getElementsByTagName("img");
+            for (var i = 0; i < imagens.length; i++) {
+              imagens[i].style.display = "none";
+            }
+            document.getElementById("imagem" + valorControle).style.display = "block";
+          }
+
+          function alterarImagem(delta) {
+            var valorControle = parseInt(document.getElementById("controleImagem").value);
+            valorControle += delta;
+            if (valorControle < 1) {
+              valorControle = 4;
+            } else if (valorControle > 4) {
+              valorControle = 1;
+            }
+            document.getElementById("controleImagem").value = valorControle;
+            mostrarImagem();
+          }
+        </script>
+
+      </body>
+
+      </html>
+
+      </script>
+
+      <div </scrip>
+
+</body>
+
+</html>
+</section>
+
+<section>
+  <h2 style="color: #4CAF50;">Sobre o EcoResistor</h2>
+  <p>Tecnologia avançada para aumentar a eficiência de combustível em até 3km por litro.</p>
+  <p>Reduza sua pegada de carbono enquanto economiza dinheiro.
+  </p>
+</section>
+
+<section>
+  <h2 style="color: #4CAF50;">Benefícios do EcoResistor</h2>
+  <ul>
+
+    <li>Aumenta a eficiência do combustível em diferentes condições de condução.</li>
+
+    <li>Fácil instalação, compatível com uma variedade de veículos.</li>
+
+    <li>Durabilidade e confiabilidade comprovadas.</li>
+
+    <li style="color: red;">Não compatível com carros a diesel e carros híbridos por ja terem de fabrica. também não compatível com motores adulterado (kits de desempenho, remapeamento de ECU).</li>
+
+    <li style="color: blue;"> Custo benefício: um veículo com tanque de 45Lts que faz em média 10km/1Lts irá fazer 450km por tanque ou seja com a instalação do ECORESISTOR e o aumento de 3km/1lts o mesmo veículo ira fazer 585km com os mesmo 45Lts.
+  </ul>
+</section>
+
+<section>
+  <h2 style="color: #FFA500;">Como Funciona</h2>
+
+  O EcoResistor, desenvolvido pelo Dr. Wright, é um avançado chip transistor conhecido como "EcoChip". Este dispositivo foi integrado aos sistemas de controle de motores, otimizando a combustão interna e resultando em um notável aumento de até 30% na eficiência do consumo de gasolina durante testes em veículos. Os resultados positivos levaram à sua rápida adoção por fabricantes de automóveis, beneficiando os consumidores com economia de combustível e redução de emissões poluentes. A história do EcoChip destaca como uma ideia simples pode transformar a indústria automotiva, impulsionando esforços em direção a soluções mais sustentáveis e ecológicas. O Dr. Wright, agora reconhecido como pioneiro nesse campo, continua a inspirar outros na busca por inovações que contribuam para um futuro mais verde.
+</section>
+
+<section>
+  <h2 style="color: #4CAF50;">Depoimentos de Clientes</h2>
+ 
+  <div style="text-align: center;">
+  <a href="https://ibb.co/gFyBXvy">
+    <img src="https://i.ibb.co/4gW5DsW/images.png" alt="images" style="max-width: 90%; height: auto;">
+  </a>
+  <span style="font-size: 24px; margin: 0 10px;">&#8594;</span>
+  <a href="https://imgbb.com/">
+    <img src="https://i.ibb.co/DwTpwGT/images.jpg" alt="images" style="max-width: 90%; height: auto;">
+  </a>
+</div>
+
+
+</section>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Banner</title>
+  <style>
+    .banner {
+      background-color: #3498db;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      font-size: 25px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="banner">
+    <p>Valor: R$ 450</p>
+  </div>
+
+</body>
+</html>
+
+<section>
+  <h2 style="color: purple;">COMPRE AGORA</h2>
+     <title>Questionário de Venda</title>
+            <style>
+              body {
+                font-family: 'Arial', sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #f5f5f5;
+                color: #333;
+              }
+
+              header {
+                background-color: #4CAF50;
+                padding: 1em;
+                color: white;
+                text-align: center;
+              }
+
+              section {
+                margin: 1em;
+                padding: 1em;
+                background-color: #fff;
+                border-radius: 8px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+              }
+
+              label {
+                display: block;
+                margin-bottom: 8px;
+                color: #4CAF50;
+              }
+
+              input,
+              select {
+                width: 90%;
+                padding: 8px;
+                margin-bottom: 16px;
+                box-sizing: border-box;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+              }
+
+              button {
+                background-color: #4CAF50;
+                color: white;
+                cursor: pointer;
+                padding: 8px;
+                border: none;
+                border-radius: 4px;
+              }
+            </style>
+          </head>
+
+          <bo>
+
+            <header>
+              <h1>Questionário de Venda</h1>
+              <label for="motor">Selecionar Motor e Cilindrada:</label>
+              <select id="motor" name="motor">
+                <option value="motor-1.0">Motor - 1.0</option>
+                <option value="motor-1.3">Motor - 1.3</option>
+                <option value="motor-1.5">Motor - 1.5</option>
+                <option value="motor-1.6">Motor  - 1.6</option>
+                <option value="motor-1.8">Motor - 1.8</option>
+                <option value="motor-2.0">Motor  - 2.0</option>
+                <option value="motor-2.3">Motor  - 2.3</option>
+                <option value="motor-3.4">Motor  - 3.4</option>
+              </select>
+            </header>
+
+            <section>
+              <form action="#" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome">
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email">
+
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone">
+
+                <label for="CPF">CPF:</label>
+                <input type="text" id="CPF" name="endereco">
+
+                <label for="numero">Número da Casa:</label>
+                <input type="text" id="numero" name="numero">
+
+                <label for="rua">Rua:</label>
+                <input type="text" id="rua" name="rua">
+
+                <label for="cidade">Cidade:</label>
+                <input type="text" id="cidade" name="cidade">
+
+                <label for="cep">CEP:</label>
+                <input type="text" id="cep" name="cep">
+
+                <!DOCTYPE html>
+                <html lang="pt-br">
+
+                <head>
+                  <meta charset="UTF-8">
+                  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                  <title>Frases Coloridas</title>
+                  <style>
+                    .frase-container {
+                      background-color: ;
+                      padding: 20px;
+                      margin-top: 20px;
+                    }
+
+                    .boa {
+                      color: blue;
+                    }
+
+                    .noite {
+                      color: red;
+                    }
+                  </style>
+                  <script>
+                    function exibirFrase() {
+                      const fraseContainer = document.getElementById('frase-container');
+                      fraseContainer.innerHTML = '<span class="boa"><span style="color: orange;">DADOS ENVIADOS! EFETUAR PAGAMENTO EM ATÉ 24 HORAS!</span><br><br>  <br>00020126870014br.gov.bcb.pix<br>2565pix.crehnor.coop.br/v2/v3<br>/at/2fbfe38a-4b20-4e47-a39a-92f3a64f4d1a5204000053039<br>865802BR5919VMOR COMERCIAL LTDA6009AMERICANA620705<br>03***63041F6B</span> <span class="noite"><br><br><br>A identificação de pagamento é feita de forma automatizada sendo assim o envio do código de rastreamento sera feito automaticamente logo após o pagamento ser detectado, código sera enviado para o E-mail cadastrado  </span>';
+                      return false; // Evitar comportamento padrão do botão que pode causar confusão
+                    }
+                  </script>
+                </head>
+
+                <body>
+                  <button onclick="return exibirFrase()">GERAR PIX PARA PAGAMENTO</button>
+                  <div id="frase-container" class="frase-container"></div>
+                </body>
+
+                </html>
+  
+  
+</section>
+
+<section>
+  <h2 style="color: #4CAF50;">Suporte ao Cliente</h2>
+ 
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Caixa de Pergunta</title>
+</head>
+<body>
+
+  <form id="myForm">
+    <label for="pergunta">Digite sua pergunta</label>
+    <input type="text" id="pergunta" name="pergunta">
+    <button type="button" onclick="exibirMensagem()">Enviar</button>
+  </form>
+
+  <div id="mensagem"></div>
+
+  <script>
+    function exibirMensagem() {
+     document.getElementById("pergunta").value;
+      document.getElementById("mensagem").innerHTML = "Obrigado a resposta será feita via E-mail!" ;
+    }
+  </script>
+
+</body>
+</html>
+
+ <br> 
+  <br>             
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rodapé do Site</title>
+  <style>
+    .endereco {
+      font-style: italic;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <footer>
+    <p>Endereço: <span class="endereco">Rua Congresso, 122 - Bairro Centro, São Paulo/SP, CEP: 0462-567</span></p>
+    <p>Telefone: (11) 9876-5432 | Email: Ecoresistor2012.com</p>
+  </footer>
+
+</body>
+</html>
+<!-- partial -->
+  
+</body>
+</html>
